@@ -2,7 +2,7 @@
 
 This is the WebBased Application that forecast Real Time WeatherBroadCasting of any City or Place.<br>
 <h3>How to Begin with the app?</h3><br>
-1.Download the zip file of this repo master branch.<br><br>
+1.Download the zip file of this repo from master branch.<br><br>
 2.To begin with: install basic dependencies with "npm install" on CLI.<br><br>
 3.For front end to run type "npm start" inside client folder and for backend "node server.js" inside weatherapp folder.<br>
  -You can also add concurrently dependency to run both simultaneoulsy.<br><br>
