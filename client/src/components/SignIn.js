@@ -36,6 +36,7 @@ const handleSubmit = () =>{
 
                 localStorage.setItem('user', JSON.stringify(result));
                setRedirect(true);
+                 window.location.reload();
             }).catch(err=>{
                      console.log(err);
             });
