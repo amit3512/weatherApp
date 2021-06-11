@@ -1,6 +1,10 @@
 import {Link} from 'react-router-dom';
 
 const Navbar = () =>{
+    
+    const handleRefresh = () => {
+       window.location.reload();
+    }
     return(
         <div className="NavBar">
              {!localStorage.getItem('user')?
@@ -16,7 +20,7 @@ const Navbar = () =>{
                 <div className="nav-items">
                     <Link to="/"><li>Home</li></Link>
                 
-                    <Link to="/signOut"><li>LogOut</li></Link>
+                    <Link to="/signOut" onClick={handleRefresh}><li>LogOut</li></Link>
                </div>
                )
                
