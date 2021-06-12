@@ -65,7 +65,7 @@ return (
 		<div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'weather warm' : 'weather') : 'weather'}>
       <main>
 			<div className="search-box text-center">
-				<h1>Weather BroadCasting</h1>
+				<h1>Weather ForeCasting</h1>
 			<input 
 				type="text"
 				className="searchBy"
