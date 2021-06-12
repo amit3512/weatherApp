@@ -1,5 +1,5 @@
 const config = {
-    secret: 'hotelsquarenearbuspark',
+    secret: 'weatherApp',
     port: 5000,
   }
   
