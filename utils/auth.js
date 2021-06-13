@@ -30,7 +30,7 @@ const userRegister = async (userDets, res) => {
       success: true
     });
   } catch (err) {
-    // Implement logger function (winston)
+    // Implement logger function
     return res.status(500).json({
       message: "Unable to create your account.",
       success: false
