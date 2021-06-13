@@ -4,7 +4,7 @@ const User = require("../model/User");
 const { secret } = require("../configs/default");
 
 
-const userRegister = async (userDets, role, res) => {
+const userRegister = async (userDets, res) => {
   try {
    // validate the email
     let emailNotRegistered = await validateEmail(userDets.email);
@@ -21,7 +21,7 @@ const userRegister = async (userDets, role, res) => {
     const newUser = new User({
       ...userDets,
       password,
-      role
+      
     });
 
     await newUser.save();
