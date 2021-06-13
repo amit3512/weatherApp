@@ -65,7 +65,6 @@ const userLogin = async (userCreds,res) => {
     let result = {
      
       email: user.email,
-      role:user.role,
       token: `Bearer ${token}`,
       expiresIn: 168
     };
