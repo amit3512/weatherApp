@@ -56,7 +56,7 @@ const userLogin = async (userCreds,res) => {
       {
         user_id: user._id,
         email: user.email,
-        role:user.role,
+        
       },
       secret,
       { expiresIn: "1 hr" }
